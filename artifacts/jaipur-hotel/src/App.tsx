@@ -13,6 +13,7 @@ import { Booking } from "@/components/Booking";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ function HotelPage() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
