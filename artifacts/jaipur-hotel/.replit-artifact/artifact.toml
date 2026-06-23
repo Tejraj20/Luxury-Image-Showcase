@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Jaipur Hotel New – A Heritage Hotel"
+version = "1.0.0"
+id = "artifacts/jaipur-hotel"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25890
+
+[services.development]
+run = "pnpm --filter @workspace/jaipur-hotel run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/jaipur-hotel", "run", "build" ]
+publicDir = "artifacts/jaipur-hotel/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25890"
+BASE_PATH = "/"

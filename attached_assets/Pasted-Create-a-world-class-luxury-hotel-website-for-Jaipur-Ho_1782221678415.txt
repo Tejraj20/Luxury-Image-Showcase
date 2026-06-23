@@ -1,0 +1,272 @@
+Create a world-class luxury hotel website for "Jaipur Hotel New – A Heritage Hotel" located in Jaipur, Rajasthan.
+
+Hotel Information
+
+Hotel Name: Jaipur Hotel New – A Heritage Hotel
+
+Address: 7, Chaura Rasta Rd, opposite GOLCHA CINEMA, Nehru Bazar, Film Colony, Modikhana, Jaipur, Rajasthan 302003
+
+Phone: +91 9828676825
+
+Starting Price: ₹1500 per night
+
+Category: Heritage Budget Hotel
+
+Design Vision
+
+The website should feel like a combination of:
+
+Luxury heritage palace
+Modern hospitality website
+Rajasthan royal architecture
+Premium booking experience
+
+Use a visual style inspired by Jaipur palaces and royal havelis.
+
+Color Palette:
+
+Royal Gold (#C9A227)
+Ivory White (#F8F5EE)
+Deep Maroon (#6D1F1F)
+Sandstone Beige (#D8C3A5)
+Dark Charcoal (#1A1A1A)
+
+Typography:
+
+Elegant serif headings
+Modern sans-serif body text
+Hero Section
+
+Create an immersive hero section using the uploaded hotel images.
+
+Features:
+
+Full-screen cinematic hero
+Parallax scroll effect
+Slow zoom background animation
+Floating golden particles
+Smooth fade transitions
+
+Headline:
+
+"Experience Jaipur's Royal Heritage"
+
+Subheadline:
+
+"Comfortable Heritage Stay in the Heart of Pink City"
+
+Buttons:
+
+Book Your Stay
+Explore Rooms
+
+Display:
+
+Starting from ₹1500/night
+Heritage Hotel
+Free WiFi
+Prime Jaipur Location
+Premium Scroll Effects
+
+Implement modern scrollytelling throughout the website.
+
+Section 1
+
+As user scrolls:
+
+Heritage building image scales smoothly
+Text reveals with stagger animation
+Palace architecture details fade in
+Section 2
+
+Create a horizontal scroll gallery showing:
+
+Heritage exterior
+Rooftop restaurant
+Guest rooms
+Hotel courtyard
+
+Images should move at different speeds creating depth.
+
+Section 3
+
+Create a 3D card effect for room showcase.
+
+About Hotel Section
+
+Title:
+
+"A Heritage Experience in Jaipur"
+
+Content:
+
+Located in the heart of Jaipur near historic markets and attractions, Jaipur Hotel New combines traditional Rajasthani heritage with modern comfort.
+
+Features:
+
+Heritage Architecture
+Comfortable Rooms
+Rooftop Dining
+Prime City Location
+Family Friendly Stay
+Affordable Luxury
+Room Showcase
+
+Create beautiful room cards with:
+
+Large image
+Glassmorphism overlay
+Hover zoom effect
+Floating booking button
+
+Room Types:
+
+Deluxe Room
+Heritage Room
+Family Room
+
+Include:
+
+Air Conditioning
+Free WiFi
+Attached Bathroom
+Room Service
+Interactive Heritage Timeline
+
+Create a vertical timeline explaining:
+
+Jaipur Heritage
+Traditional Architecture
+Local Culture
+Guest Experience
+
+Animate each item when entering viewport.
+
+Amenities Section
+
+Create premium animated icons for:
+
+Free WiFi
+Air Conditioning
+Rooftop Restaurant
+Family Friendly
+Parking
+Room Service
+Airport Assistance
+24/7 Support
+
+Use hover animations.
+
+Rooftop Restaurant Section
+
+Use rooftop dining image.
+
+Create:
+
+Cinematic reveal animation
+Warm evening ambience
+Luxury dining experience
+Background video-style movement
+
+Headline:
+
+"Dine Under Jaipur's Evening Sky"
+
+Testimonials Section
+
+Create elegant testimonials slider.
+
+Use:
+
+Auto scrolling reviews
+Glass cards
+5-star ratings
+Smooth transitions
+Nearby Attractions
+
+Interactive map cards for:
+
+City Palace
+Hawa Mahal
+Jantar Mantar
+Albert Hall Museum
+Johari Bazaar
+
+Include distance and travel time.
+
+Booking Section
+
+Create premium booking form.
+
+Fields:
+
+Check-in
+Check-out
+Guests
+Room Type
+Phone Number
+
+Show:
+
+"Rooms Starting From ₹1500"
+
+CTA Button:
+
+"Reserve Your Heritage Stay"
+
+Contact Section
+
+Display:
+
+Jaipur Hotel New – A Heritage Hotel
+
+Phone: +91 9828676825
+
+Address:
+7, Chaura Rasta Rd, opposite GOLCHA CINEMA,
+Nehru Bazar, Film Colony,
+Modikhana, Jaipur, Rajasthan 302003
+
+Add Google Maps integration.
+
+Footer
+
+Create an ultra-premium footer similar to award-winning Awwwards websites.
+
+Features:
+
+Animated golden line
+Hover interactions
+Social icons
+Newsletter
+Quick links
+Smooth reveal animation
+Technical Requirements
+
+Use:
+
+Next.js
+TypeScript
+Tailwind CSS
+Framer Motion
+GSAP ScrollTrigger
+Lenis Smooth Scroll
+
+Animations:
+
+Smooth page transitions
+Scroll-triggered reveals
+Parallax effects
+3D hover cards
+Magnetic buttons
+Luxury micro-interactions
+
+Performance:
+
+95+ Lighthouse Score
+Fully Responsive
+Mobile First
+SEO Optimized
+Fast Loading
+
+Make the website feel like a premium ₹10,000/night heritage hotel while still highlighting affordability starting at ₹1500/night.
