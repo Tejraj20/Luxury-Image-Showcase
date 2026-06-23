@@ -1,27 +1,28 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { PREMIUM_IMAGES } from "@/lib/premium-images";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const BEATS = [
   {
-    image: "/hotel-images/rooftop-evening.jpg",
+    image: PREMIUM_IMAGES.diningGolden,
     eyebrow: "Rooftop Restaurant",
     title: "Dine Under\nJaipur's Evening Sky",
     body: "As the Pink City exhales its golden hour, our rooftop transforms. Tables laid with care, lanterns lit one by one, the city's silhouette spread below you like a royal tapestry.",
   },
   {
-    image: "/hotel-images/rooftop-night.jpg",
+    image: PREMIUM_IMAGES.diningCandle,
     eyebrow: "Night Ambience",
-    title: "Lanterns &\nMoonlit Arches",
-    body: "When darkness descends, the rooftop glows warm. Blue temple domes, strings of light, and the scent of Rajasthani spice carried on the desert breeze.",
+    title: "Candlelight &\nWarm Arches",
+    body: "When darkness descends, the rooftop glows warm. Candlelit tables, strings of light above, and the scent of Rajasthani spice carried on the evening breeze.",
   },
   {
-    image: "/hotel-images/moonlit-rooftop.jpg",
+    image: PREMIUM_IMAGES.diningNight,
     eyebrow: "Under the Stars",
-    title: "A Full Moon\nOver the City",
-    body: "Dinner ends. The moon rises over Jaipur's ancient skyline. This is the moment that guests remember long after they've left — a private dialogue between you and the Pink City.",
+    title: "A Perfect Night\nAbove the City",
+    body: "Dinner ends. The stars take over Jaipur's ancient skyline. This is the moment guests remember long after they've left — a private dialogue between you and the Pink City.",
   },
 ];
 

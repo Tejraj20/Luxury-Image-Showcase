@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MapPin, Clock } from "lucide-react";
+import { PREMIUM_IMAGES } from "@/lib/premium-images";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,8 +13,7 @@ const ATTRACTIONS = [
     distance: "0.8 km",
     time: "3 min walk",
     description: "The iconic five-story pink sandstone palace with 953 lattice windows — Jaipur's most photographed monument, built in 1799.",
-    color: "#C9A227",
-    image: "/hotel-images/courtyard.jpg",
+    image: PREMIUM_IMAGES.exploreHawaMahal,
   },
   {
     name: "Johari Bazaar",
@@ -21,8 +21,7 @@ const ATTRACTIONS = [
     distance: "0.3 km",
     time: "2 min walk",
     description: "Jaipur's legendary market for gems, silver, and traditional textiles. A sensory overload of color and artisanal craft.",
-    color: "#C9A227",
-    image: "/hotel-images/rooftop-night.jpg",
+    image: PREMIUM_IMAGES.exploreJohari,
   },
   {
     name: "City Palace",
@@ -30,8 +29,7 @@ const ATTRACTIONS = [
     distance: "1.2 km",
     time: "5 min by auto",
     description: "The royal residence of the Jaipur Maharajas — a complex of courtyards, museums, and stunning Rajput architecture.",
-    color: "#C9A227",
-    image: "/hotel-images/atrium.jpg",
+    image: PREMIUM_IMAGES.exploreCityPalace,
   },
   {
     name: "Jantar Mantar",
@@ -39,8 +37,7 @@ const ATTRACTIONS = [
     distance: "1.5 km",
     time: "7 min by auto",
     description: "UNESCO World Heritage astronomical observatory. A collection of 19 architectural instruments that measure time and cosmic positions.",
-    color: "#C9A227",
-    image: "/hotel-images/rooftop-evening.jpg",
+    image: PREMIUM_IMAGES.exploreJantar,
   },
   {
     name: "Albert Hall Museum",
@@ -48,8 +45,7 @@ const ATTRACTIONS = [
     distance: "2.0 km",
     time: "10 min by auto",
     description: "Rajasthan's oldest museum in a stunning Indo-Saracenic building. Galleries of miniature paintings, carpets, and royal artifacts.",
-    color: "#C9A227",
-    image: "/hotel-images/dining.jpg",
+    image: PREMIUM_IMAGES.exploreAlbertHall,
   },
 ];
 

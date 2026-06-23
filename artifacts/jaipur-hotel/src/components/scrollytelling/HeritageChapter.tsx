@@ -1,33 +1,34 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { PREMIUM_IMAGES } from "@/lib/premium-images";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const CHAPTERS = [
   {
-    image: "/hotel-images/courtyard.jpg",
+    image: PREMIUM_IMAGES.heritagePinkCity,
     eyebrow: "300 Years of History",
     title: "The Pink City",
     body: "Founded in 1727 by Maharaja Sawai Jai Singh II, Jaipur is one of the first planned cities of India. Its rose-pink palaces and royal bazaars have made it a UNESCO World Heritage treasure.",
     accent: "01",
   },
   {
-    image: "/hotel-images/atrium.jpg",
+    image: PREMIUM_IMAGES.heritageArch,
     eyebrow: "Rajputana Craft",
     title: "Heritage Architecture",
     body: "The jharokhas, cusped arches, and carved sandstone of Rajputana architecture define every corner of Jaipur's old city. Our hotel preserves these forms in authentic detail.",
     accent: "02",
   },
   {
-    image: "/hotel-images/rooftop-night.jpg",
+    image: PREMIUM_IMAGES.heritageCulture,
     eyebrow: "Living Tradition",
     title: "Local Culture",
     body: "From block-printing workshops to puppet theaters at Hawa Mahal, Jaipur's artisan traditions live on. Immerse yourself in a city where the past doesn't recede — it surrounds you.",
     accent: "03",
   },
   {
-    image: "/hotel-images/dining.jpg",
+    image: PREMIUM_IMAGES.heritageGuest,
     eyebrow: "Privileged Welcome",
     title: "Guest Experience",
     body: "Modern comfort woven into historical walls. Every room, every rooftop meal, every sunrise view is designed to make you feel like a privileged guest of a Rajasthani haveli.",

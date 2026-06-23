@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { PREMIUM_IMAGES } from "@/lib/premium-images";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,23 +18,20 @@ const CHAPTERS = [
   {
     label: "Est. Jaipur, Rajasthan",
     title: ["Experience Jaipur's", "Royal Heritage"],
-    titleGold: 1,
     sub: "Comfortable Heritage Stay in the Heart of Pink City",
-    image: "/hotel-images/courtyard.jpg",
+    image: PREMIUM_IMAGES.heroPalace,
   },
   {
     label: "Heritage Architecture",
     title: ["Centuries of Craft,", "Alive in Every Wall"],
-    titleGold: 1,
     sub: "Jharokhas, arches, and carved sandstone — preserved for your stay.",
-    image: "/hotel-images/atrium.jpg",
+    image: PREMIUM_IMAGES.heroAmber,
   },
   {
     label: "Rooftop Dining",
     title: ["The Sky Becomes", "Your Dining Room"],
-    titleGold: 1,
     sub: "Authentic Rajasthani cuisine under an ocean of Jaipur stars.",
-    image: "/hotel-images/rooftop-evening.jpg",
+    image: PREMIUM_IMAGES.heroLuxury,
   },
 ];
 
