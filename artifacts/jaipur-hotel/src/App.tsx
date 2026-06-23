@@ -1,22 +1,24 @@
 import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { NavBar } from "@/components/NavBar";
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
-import { Rooms } from "@/components/Rooms";
+import { HeroChapter } from "@/components/scrollytelling/HeroChapter";
+import { HeritageChapter } from "@/components/scrollytelling/HeritageChapter";
+import { RoomsChapter } from "@/components/scrollytelling/RoomsChapter";
 import { Gallery } from "@/components/Gallery";
-import { Timeline } from "@/components/Timeline";
 import { Amenities } from "@/components/Amenities";
-import { Dining } from "@/components/Dining";
+import { DiningChapter } from "@/components/scrollytelling/DiningChapter";
 import { Testimonials } from "@/components/Testimonials";
-import { Attractions } from "@/components/Attractions";
+import { ExploreChapter } from "@/components/scrollytelling/ExploreChapter";
 import { Booking } from "@/components/Booking";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 
 const queryClient = new QueryClient();
 
 function HotelPage() {
+  useSmoothScroll();
+
   useEffect(() => {
     document.title = "Jaipur Hotel New – A Heritage Hotel | Jaipur, Rajasthan";
   }, []);
@@ -25,15 +27,14 @@ function HotelPage() {
     <div className="min-h-screen">
       <NavBar />
       <main>
-        <Hero />
-        <About />
-        <Rooms />
+        <HeroChapter />
+        <HeritageChapter />
+        <RoomsChapter />
         <Gallery />
-        <Timeline />
         <Amenities />
-        <Dining />
+        <DiningChapter />
         <Testimonials />
-        <Attractions />
+        <ExploreChapter />
         <Booking />
         <Contact />
       </main>
