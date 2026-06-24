@@ -5,10 +5,13 @@ import { Wind, Wifi, Bath, Bell, Users } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const U = (id: string) =>
+  `https://images.unsplash.com/${id}?w=1600&q=85&auto=format&fit=crop`;
+
 const ROOMS = [
   {
     id: "deluxe",
-    image: "/hotel-images/deluxe-room.jpg",
+    image: U("photo-1590490360182-c33d57733427"),
     title: "Deluxe Room",
     tagline: "Modern comfort meets heritage",
     price: "₹1500",
@@ -22,7 +25,7 @@ const ROOMS = [
   },
   {
     id: "heritage",
-    image: "/hotel-images/heritage-room.jpg",
+    image: U("photo-1578683010236-d716f9a3f461"),
     title: "Heritage Room",
     tagline: "Step into living history",
     price: "₹1800",
@@ -37,7 +40,7 @@ const ROOMS = [
   },
   {
     id: "family",
-    image: "/hotel-images/courtyard.jpg",
+    image: U("photo-1505693416388-ac5ce068fe85"),
     title: "Family Room",
     tagline: "Space for every story",
     price: "₹2200",
