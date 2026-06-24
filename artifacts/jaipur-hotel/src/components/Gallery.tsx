@@ -3,15 +3,30 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Gallery() {
+  const U = (id: string) =>
+    `https://images.unsplash.com/${id}?w=1200&q=85&auto=format&fit=crop`;
+
   const images = [
-    { src: "/hotel-images/courtyard.jpg", caption: "The Grand Courtyard", aspect: "aspect-[4/3]" },
-    { src: "/hotel-images/atrium.jpg", caption: "Heritage Atrium", aspect: "aspect-[3/4]" },
-    { src: "/hotel-images/rooftop-evening.jpg", caption: "Rooftop at Dusk", aspect: "aspect-[4/3]" },
-    { src: "/hotel-images/heritage-room.jpg", caption: "Heritage Suite", aspect: "aspect-[1/1]" },
-    { src: "/hotel-images/moonlit-rooftop.jpg", caption: "Under the Moon", aspect: "aspect-[3/4]" },
-    { src: "/hotel-images/dining.jpg", caption: "Culinary Delights", aspect: "aspect-[4/3]" },
-    { src: "/hotel-images/deluxe-room.jpg", caption: "Deluxe Room", aspect: "aspect-[1/1]" },
-    { src: "/hotel-images/rooftop-night.jpg", caption: "Rooftop Garden", aspect: "aspect-[3/4]" },
+    // 1. Heritage exterior — Amber Fort golden sandstone
+    { src: U("photo-1599661046289-e31897846e41"), caption: "Heritage Exterior", aspect: "aspect-[4/3]" },
+    // 2. Luxury suite — warm golden bedroom
+    { src: U("photo-1618773928121-c32242e63f39"), caption: "Luxury Suite", aspect: "aspect-[4/3]" },
+    // 3. Royal reception — ornate overhead marble floor
+    { src: U("photo-1559329007-40df8a9345d8"), caption: "Royal Reception", aspect: "aspect-[3/4]" },
+    // 4. Heritage room — dark rich-wood boutique suite
+    { src: U("photo-1611892440504-42a792e24d32"), caption: "Heritage Room", aspect: "aspect-[1/1]" },
+    // 5. Fine dining restaurant — warm amber interior
+    { src: U("photo-1517248135467-4c7edcad34c4"), caption: "The Restaurant", aspect: "aspect-[4/3]" },
+    // 6. Royal suite view — room with Rajasthan desert landscape
+    { src: U("photo-1445019980597-93fa8acb246c"), caption: "Royal View Suite", aspect: "aspect-[3/4]" },
+    // 7. The pool — luxury infinity pool at dusk
+    { src: U("photo-1566073771259-6a8506099945"), caption: "The Pool", aspect: "aspect-[1/1]" },
+    // 8. Grand ballroom — palatial chandeliered event hall
+    { src: U("photo-1519167758481-83f550bb49b3"), caption: "Grand Ballroom", aspect: "aspect-[3/4]" },
+    // 9. Culinary excellence — fine dining plate service
+    { src: U("photo-1414235077428-338989a2e8c0"), caption: "Culinary Excellence", aspect: "aspect-[4/3]" },
+    // 10. Morning dining — elevated breakfast spread
+    { src: U("photo-1424847651672-bf20a4b0982b"), caption: "Morning Dining", aspect: "aspect-[1/1]" },
   ];
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
