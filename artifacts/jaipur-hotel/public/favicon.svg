@@ -1,3 +1,36 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+
+  <!-- Deep maroon background -->
+  <rect width="32" height="32" rx="3.5" fill="#6D1F1F"/>
+
+  <!-- Gold border frame -->
+  <rect x="1.5" y="1.5" width="29" height="29" rx="2.5" fill="none"
+        stroke="#D4AF37" stroke-width="0.9"/>
+
+  <!-- Crown: three spires -->
+  <polygon points="10,10 11,6.5 12,10" fill="#D4AF37"/>
+  <polygon points="14.5,10 16,4.5 17.5,10" fill="#D4AF37"/>
+  <polygon points="20,10 21,6.5 22,10" fill="#D4AF37"/>
+  <!-- Crown base bar -->
+  <rect x="9.5" y="10" width="13" height="1.5" rx="0.5" fill="#D4AF37"/>
+
+  <!-- J: vertical stem -->
+  <rect x="10.5" y="13" width="2" height="9.5" rx="0.4" fill="#D4AF37"/>
+  <!-- J: hook at bottom (curves left) -->
+  <path d="M8.8 22.5 Q8.8 25 10.8 25 Q12.5 25 12.5 23"
+        fill="none" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- J: top serif cap -->
+  <rect x="9.5" y="13" width="4" height="1.2" rx="0.3" fill="#D4AF37"/>
+
+  <!-- H: left stem -->
+  <rect x="15.5" y="13" width="2" height="12" rx="0.4" fill="#D4AF37"/>
+  <!-- H: right stem -->
+  <rect x="19.5" y="13" width="2" height="12" rx="0.4" fill="#D4AF37"/>
+  <!-- H: crossbar -->
+  <rect x="15.5" y="18.2" width="6" height="1.6" rx="0.3" fill="#D4AF37"/>
+
+  <!-- Base gold rule -->
+  <line x1="9" y1="27.5" x2="23" y2="27.5"
+        stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.55"/>
+
 </svg>
