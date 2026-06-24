@@ -5,8 +5,8 @@ const U = (id: string, w = 1920, q = 85) =>
 
 export const PREMIUM_IMAGES = {
   // ── Hero chapter slides ──────────────────────────────────────────────
-  // Hawa Mahal — Jaipur's iconic Palace of Winds
-  heroPalace:   U("photo-1524492412937-b28074a47d70"),
+  // Amber Fort, Jaipur — golden sandstone tiered architecture, warm sunlight
+  heroPalace:   U("photo-1599661046289-e31897846e41"),
   // Amber Fort from water — dawn mist over Jaipur
   heroAmber:    U("photo-1548013146-72479768bada"),
   // Luxury Indian palace hotel infinity pool at dusk
