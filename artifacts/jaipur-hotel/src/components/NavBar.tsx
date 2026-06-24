@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "wouter";
+import { JaipurLogo } from "./JaipurLogo";
 
 export function NavBar() {
   const [scrolled, setScrolled] = useState(false);
@@ -37,11 +38,8 @@ export function NavBar() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#home" onClick={(e) => handleNavClick(e, "#home")} className="group flex flex-col items-center">
-          <span className="font-serif text-2xl md:text-3xl text-foreground dark:text-primary-foreground font-bold tracking-wider">
-            JAIPUR HOTEL NEW
-          </span>
-          <div className="w-16 h-[2px] bg-primary mt-1 transform group-hover:scale-x-150 transition-transform duration-300"></div>
+        <a href="#home" onClick={(e) => handleNavClick(e, "#home")} className="group">
+          <JaipurLogo />
         </a>
 
         {/* Desktop Nav */}
